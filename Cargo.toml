@@ -1,6 +1,19 @@
 [package]
-name = "ascii-image"
+name = "ascii_image"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+authors = ["Matteo Bosshard matteobosshard@gmail.com"]
+license = "MIT"
+description = "Render images as colorized ASCII art."
+keywords = ["ascii", "image", "ASCII", "art"]
+categories = ["Encoding", "Text processing"]
+
+[lib]
+name = "ascii_image"
+path = "src/lib.rs"
+crate-type = ["lib"]
 
 [dependencies]
+image = "0.24"         # loading & basic image ops
+palette = "0.6"        # color conversions (RGB -> HSV)
+anyhow = "1.0"         # simple error handling

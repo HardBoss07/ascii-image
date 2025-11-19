@@ -10,8 +10,8 @@ fn main() -> anyhow::Result<()> {
     }
 
     let opts = Options {
-        max_width: 90,
-        max_height: 90,
+        max_width: 120,
+        max_height: 60,
         colored: true, // set to false for plain ASCII
     };
 
