@@ -1,9 +1,10 @@
 [package]
 name = "ascii_image"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Matteo Bosshard matteobosshard@gmail.com"]
 license = "MIT"
+repository = "https://github.com/HardBoss07/ascii-image"
 description = "Render images as colorized ASCII art."
 keywords = ["ascii", "image", "ASCII", "art"]
 categories = ["encoding", "text-processing"]
