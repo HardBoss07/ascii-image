@@ -6,7 +6,7 @@ authors = ["Matteo Bosshard matteobosshard@gmail.com"]
 license = "MIT"
 description = "Render images as colorized ASCII art."
 keywords = ["ascii", "image", "ASCII", "art"]
-categories = ["Encoding", "Text processing"]
+categories = ["encoding", "text processing"]
 
 [lib]
 name = "ascii_image"
