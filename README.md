@@ -21,7 +21,7 @@ cargo add ascii_image
 Or clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/ascii-image.git
+git clone https://github.com/HardBoss07/ascii-image.git
 cd ascii-image
 cargo build --release
 ```
